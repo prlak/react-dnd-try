@@ -18,35 +18,12 @@ class App extends Component {
     cards: [
       {
         id: 1,
-        text: 'Hello!',
-      },
-      {
-        id: 2,
-        text: 'Welcome to React trial development',
-      },
-      {
-        id: 3,
-        text: 'Above we have various dialogues which can be dragged',
-      },
-      {
-        id: 4,
-        text: 'I can be dragged too',
-      },
-      {
-        id: 5,
-        text:
-          'Hope you liked the trial dev',
-      },
-      {
-        id: 6,
-        text: 'Thank you',
-      },
-      {
-        id: 7,
-        text: 'Bye!',
+        text: 'Hello! You dropped an item into the Target! Hope you liked the trial dev.. \n Thank you Bye!',
       },
     ],
+    
   }
+
 
   deleteItem = id => {
     this.setState(prevState => {

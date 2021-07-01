@@ -1,5 +1,10 @@
+html {
+  background: rgb(0, 153, 191);
+  background: linear-gradient(90deg, rgb(176, 225, 233) 0%, rgb(154, 220, 240) 46%, rgb(134, 220, 247) 100%);
+}
+
 body {
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
   }
